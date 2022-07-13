@@ -7,7 +7,7 @@ body {
 
 .navbar {
     display: flex;
-    background-color: lightgrey;
+    background-color: rgb(71, 102, 197);
 }
 
 .navbar div {
@@ -15,9 +15,10 @@ body {
 }
 
 .logo img {
-    width: 30%;
+    width: 40%;
     margin-left: 15%;
     padding: 10px;
+    color: white;
 }
 
 .nav-links {
@@ -26,17 +27,20 @@ body {
 
 .nav-links li {
     padding: 20px;
+
     list-style: none;
 }
 
 .nav-links li a:hover {
     transition: .5s;
     color: olivedrab;
+
 }
 
 .nav-links li a {
     text-decoration: none;
     font-size: 25px;
+    color: white;
 }
 
 
@@ -350,5 +354,55 @@ button {
 
 button:hover {
     background-color: rgb(0, 16, 236);
-    transition: .5s;
+    transition: .3s;
+
+}
+
+/* ---------table css--------- */
+
+.table {
+    margin-top: 100px;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+th,
+td {
+    border: 2px solid rgb(0, 102, 255);
+    padding: 20px;
+}
+
+tr:nth-child(2n) {
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+/*----- service------- */
+
+.service {
+    width: 80%;
+    margin: auto;
+}
+
+.email,
+.trx {
+    width: 200px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid blueviolet;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgb(53, 37, 6);
+    padding: 10px 30px;
+    margin-left: 0;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif margin-bottom: 100px;
 }
