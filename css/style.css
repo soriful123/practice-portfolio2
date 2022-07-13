@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.navbar div {
+    width: 50%;
+}
+
+.logo img {
+    width: 30%;
+    margin-left: 15%;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-links li a:hover {
+    transition: .5s;
+    color: olivedrab;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+
+
+/* -----container option css------ */
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.banner-area {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.banner-area img {
+    width: 55%;
+    margin-top: -70px;
+
+}
+
+.banner-area h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-area p {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.banner-area a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 20px 100px;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/*----- main section option css-------- */
+.main-section {
+    background-image: linear-gradient(orange, purple);
+    text-align: center;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.time-counting {
+    display: flex;
+    justify-content: center;
+
+}
+
+.time-title {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.time-title p {
+    font-size: 20px;
+    color: white;
+}
+
+
+.time-counting div {
+    width: 200px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time-counting h1 {
+    margin-bottom: -10px;
+    color: rgba(255, 255, 255, 0.795);
+
+}
+
+.time-counting p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* ----new section---- */
+.convenience {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.24);
+    margin-top: 100px;
+}
+
+.convence-group {
+    width: 50%;
+    padding: 20px;
+    margin-left: 10%;
+
+}
+
+.convence-group img {
+    width: 100%;
+}
+
+.convence-group1 {
+    width: 50%;
+    margin: 10%;
+    margin-top: 40px;
+}
+
+.convence-group1 h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.convence-group1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 30%;
+    line-height: 35px;
+}
+
+
+.owner {
+    display: flex;
+}
+
+.owner img {
+    border-radius: 50%;
+    width: 20%;
+    height: 100px;
+}
+
+.owner h1 {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+
+
+
+
+
+
+
+/*--- another section css---- */
+
+
+.counting {
+    background-color: rgba(211, 211, 211, 0.24);
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.counter {
+    display: flex;
+    margin-top: 120px;
+}
+
+.counter-title {
+    text-align: center;
+}
+
+.counter-title h1 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-title p {
+    font-size: 22px;
+    color: grey;
+}
+
+.counter-group {
+    width: 40%;
+    font-size: 20px;
+    margin-left: 10%;
+    line-height: 35px;
+}
+
+
+
+.counter-group1 {
+    width: 60%;
+}
+
+
+
+
+
+/* ------new secton csss----- */
+
+.discuss {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: -150px;
+}
+
+.discuss-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.discus {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.discuss-group {
+    width: 40%;
+    margin: 10% 5%;
+
+}
+
+.discuss-group h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.discuss-group p {
+    font-size: 20px;
+    color: grey;
+
+}
+
+
+.button {
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 20px 100px;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+
+
+/* -------Registration css ------- */
+
+.registration {
+    text-align: center;
+    background-color: rgba(98, 0, 255, 0.603);
+    width: 80%;
+    height: 200px;
+    padding: 100px;
+    margin: 100px auto;
+}
+
+.registration label {
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.registration input {
+    width: 300px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid salmon;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(0, 16, 236);
+    transition: .5s;
+}
